@@ -210,9 +210,158 @@
 //         document.getElementById("result").innerHTML = "Password too short";
 //       }
 //     }
-    function check(){let password = document.getElementById('passWordInput').value;
-        if(password.length >= 8){if(/\d/.test(password)){
-            document.getElementById('result').innerHTML = 'strong password'
-        }else{document.getElementById('result').innerHTML = 'weak password add number'}}
-        else{document.getElementById('result').innerHTML = 'short password'}
-    }
+    // function check(){let password = document.getElementById('passWordInput').value;
+    //     if(password.length >= 8){if(/\d/.test(password)){
+    //         document.getElementById('result').innerHTML = 'strong password'
+    //     }else{document.getElementById('result').innerHTML = 'weak password add number'}}
+    //     else{document.getElementById('result').innerHTML = 'short password'}
+    // }
+    // ____________________________________________________________________________________
+    // ques no 13
+//      Round a number
+// Question:
+// Create a variable price = 25.6789.
+// Use .toFixed() to round it to 2 decimal places.
+// Print the result.
+
+// Expected Output:
+// 25.68
+// ________________
+// ans 
+// let number = Number(prompt('enter number'))
+// let result = number.toFixed(2);
+// document.write(result);
+// ____________________________________________________________________________
+// ques no 14
+// ____________________
+// ans 
+// Write a program that takes a radius from the user 
+// (using prompt or an input field) and calculates the circumference 
+// of a circle using the formula:
+
+// Circumference = 2 × Math.PI × radius
+// Expected output:
+// Show the result in the console or on the webpage.
+// ______________
+// ans 
+// function calculates(){let radius = parseFloat(document.getElementById('inp').value);
+//     let circumference = 2 * Math.PI * radius;
+//          circumference = circumference.toFixed(2);
+//     document.getElementById('pp').innerHTML = circumference + ' ' + 'meter';
+// }
+// __________________________________________________________________________________
+// ques no 15 
+// Create a number variable. Convert it to a string using .toString(). Display both the original number and the converted string on the HTML page.
+
+// Expected Output:
+// Shows:
+// Number: 123  
+// String: "123"
+// ___________________
+// ans 
+// function string(){let num = Number(document.getElementById('inp').value);
+//                  let type = typeof num;
+//                  document.getElementById('p1').innerHTML = type; 
+//                  let str = num + '';
+//                  document.getElementById('p2').innerHTML = str;
+//                  let type2 = typeof str;
+//                  document.getElementById('p3').innerHTML = type2;
+
+// }
+// __________________________________________________________________________________________
+// ques no 16 
+// Write a program that takes a string from the user and displays its 
+// first character using .charAt().
+// Example:
+// Input: "Hello"
+// Output: H
+// function charat(){let str = document.getElementById('inp').value;
+//                let firstChar = str.charAt();
+//                document.getElementById('pp').innerHTML = firstChar;
+// }
+// _________________________________________________________________________________________
+// ques no 17
+//  Capitalize User Input
+// Write a program that:
+// Takes a user’s name using prompt().
+// Converts the whole name to uppercase using .toUpperCase().
+// Shows the result using alert() or console.log().
+// Input: "john doe"  
+// Output: "JOHN DOE"
+
+// function capitalize(){let name = document.getElementById('inp').value;
+//              let result = name.toLowerCase();
+//              document.getElementById('pp').innerHTML = result;
+// }
+// _______________________________________________________________________________
+// QUES ON 18 
+// Round a User’s Age
+// Ask the user to enter their age as a decimal number (e.g., 23.7).
+// Use Math.round() to round it to the nearest whole number.
+// Show the rounded age using alert or console.log.
+// Example:
+// Input: 23.7  
+// Output: 24
+// _______________
+// ans 
+// function round(){let age = document.getElementById('inp').value;
+//                  let result = Math.round(age);
+//                  document.getElementById('pp').innerText = result;
+// }
+// _________________________________________________________________________________
+// ques no 19 
+// Write a program that:
+// Takes a number input from the user using prompt().
+// Uses Math.sqrt() to find its square root.
+// Displays the result using alert().
+// Example:
+// Input: 25
+// Output: The square root of 25 is 5
+// _______________________________
+// ans 
+// function sqrt(){ let num = document.getElementById('it').value;
+//                  let result = Math.sqrt(num);
+//                  document.getElementById('ph').innerText = result
+// }
+// ____________________________________________________________________________________
+// ques no 20 
+// Write a program that takes two numbers from the user.
+// Calculate the absolute difference between them and display the result using Math.abs().
+
+// Example:
+// Input: 7 and 12  
+// Output: The absolute difference is 5
+// ____________
+// ans 
+// function abs(){let num1 = document.getElementById('it1').value ;
+//     let num2 = document.getElementById('it2').value;
+//     let difference = num1 - num2;
+//     document.getElementById('ph1').innerText = difference;
+//     let result = Math.abs(difference);
+//     document.getElementById('ph2').innerHTML = result;
+// }
+// _________________________________________________________________________________________
+// ques no 21
+// Write a program that takes three numbers from the user (using prompt) and shows the largest number using Math.max.
+// Show the result using alert.
+// Example:
+// If the user enters: 5, 12, 9 — it should alert: The maximum number is 12.
+// function max(){let num1 = document.getElementById('it1').value;
+//     let num2 = document.getElementById('it2').value; 
+//     let num3 = document.getElementById('it3').value; 
+//     let largest = Math.max(num1,num2,num3);
+//     document.getElementById('ph').innerHTML = largest;
+// }
+// ___________________________________________________________________________
+// ques no 22 
+// Create an array of 5 numbers. Use Math.max with the ... (spread) operator to find and log the largest number to the console.
+
+// Example
+// let numbers = [15, 8, 22, 5, 10];
+// // Use Math.max to find the largest and log it
+// Expected console output: The maximum number is 22
+// _____________
+// ans 
+function max(){let getarray = document.getElementById('array').value; 
+    console.log(getarray)
+}
