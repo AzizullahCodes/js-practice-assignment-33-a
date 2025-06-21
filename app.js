@@ -182,3 +182,37 @@
 // Else, print “Password too short”
 //_________________________
 // ans 
+// let password = prompt("Enter your password:");
+
+// if (password.length >= 8) {
+//   // Check if it contains a number
+//   if (/\d/.test(password)) {
+//     console.log("Strong Password");
+//   } else {
+//     console.log("Weak Password: add numbers");
+//   }
+// } else {
+//   console.log("Password too short");
+// }
+
+// function check() {
+//       // Get value from input
+//       let password = document.getElementById("passwordInput").value;
+
+//       // Check conditions
+//       if (password.length >= 8) {
+//         if (/\d/.test(password)) {
+//           document.getElementById("result").innerHTML = "Strong Password";
+//         } else {
+//           document.getElementById("result").innerHTML = "Weak Password: add numbers";
+//         }
+//       } else {
+//         document.getElementById("result").innerHTML = "Password too short";
+//       }
+//     }
+    function check(){let password = document.getElementById('passWordInput').value;
+        if(password.length >= 8){if(/\d/.test(password)){
+            document.getElementById('result').innerHTML = 'strong password'
+        }else{document.getElementById('result').innerHTML = 'weak password add number'}}
+        else{document.getElementById('result').innerHTML = 'short password'}
+    }
