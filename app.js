@@ -362,6 +362,149 @@
 // Expected console output: The maximum number is 22
 // _____________
 // ans 
-function max(){let getarray = document.getElementById('array').value; 
-    console.log(getarray)
-}
+// let numbers = [4,3,55,9,32];
+// let largest = Math.max(...numbers);
+// console.log(largest);
+// -----------------------------------------------------------------------------------
+// ques no 23
+// find max number of array by for loop 
+// __________________
+// ans 
+// let array = [4,1,6,8,0];
+// let greatestNumber = array[0];
+// for(var i = 0; i < array.length; i++){if(array[i] > greatestNumber){ greatestNumber = array[i]}}
+// console.log(greatestNumber)
+// ____________________________________________________________________________________
+// ques no 24
+// Create an array of 6 numbers. Use the spread operator with Math.max() 
+// to find and print the largest number.
+// Expected output: The maximum number is ... (the biggest number from your 
+// array).
+// ans 
+// let array = [7,3,8,9,55,0];
+// let maxNumber = array[0];
+// for(var i = 0; i < array.length; i++){if(array[i]> maxNumber){
+//     maxNumber = array[i]
+// }}
+// console.log(maxNumber)
+// ___________________________________________________________________________________
+// ques no 25
+// Find the Minimum in an Array
+// Task:
+// Create an array of 6 numbers. Use the spread operator with 
+// Math.min() to find and print the smallest number.
+// Expected output: The minimum number is ... (the smallest
+//  number from your array).
+// ____________
+// ans 
+// let array = [7,3,9,33,8];
+// // let min = Math.min(...array);
+// // console.log(min)
+// let minNumber = array[0];
+// for(var i = 0; i < array.length; i++){if(array[i]< minNumber)
+// {minNumber = array[i]}
+// }
+// console.log(minNumber)
+// ___________________________________________________________________________________
+// ques no 26 
+// Random Number between 1 and 10
+// Question:
+// Use Math.random() to generate a random integer between 1 and 10. Log it.
+// Expected Output Example:
+// Random integer between 1 and 10: 7
+// _____________________
+// ans 
+// function random(){let random = Math.random()*10;
+//     random = random + 1;
+//     random = Math.floor(random);
+//     document.getElementById('ph').innerText = random;
+// }
+// _________________________________________________________________________________
+// ques no 27 
+// reate a global variable message with value "Hello World".
+// Write a function changeMessage that declares a local variable message 
+// with value "Hello JavaScript" and logs it.
+// After calling the function, log the global message again.
+// Expected Output:
+// Hello JavaScript  
+// Hello World
+// __________________
+// ans 
+// var message = 'hello world';
+// function changeMessage(){var message = 'Hello javascript';
+//     console.log('local',message);
+//     window.message = 'i love js';
+// }
+// changeMessage();
+// console.log('global',message)
+// _________________________________________________________________________________
+// ques no 28
+// Modify Global Variable
+// Create a global variable count with value 10.
+// Write a function increaseCount that adds 5 to the global count.
+// Call the function and then log count.
+// Expected Output:
+// 15
+// ___________________
+//  var count = 10;
+// function increaseCount(){count = count + 5;
+//     console.log(count);
+// }
+// increaseCount()
+// ___________________________________________________________________________________
+// ques no 29 
+// Create a global variable price with value 100.
+// Write a function addTax that calculates price + 20 and logs it.
+// Do not declare a local price inside the function.
+// Expected Output:
+// 120
+// _________________
+// ans 
+// function addTax(){let update = document.getElementById('it').value;
+//     update = Number(update);
+//                 let newUpdate = update + 20;
+//                 document.getElementById('ph').innerHTML = newUpdate;
+// }
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ques no 30 
+// Create a global variable name with value "Alice".
+// Write a function greet that declares a local variable name with value 
+// "Bob" and logs "Hello Bob".
+// Outside the function, log "Hello Alice".
+// Expected Output:
+// Hello Bob  
+// Hello Alice
+// ________________
+// ans 
+// let name = 'Alice';
+// function greet(){let name = 'Bob';
+//     console.log('Hello',name);
+// }
+// greet();
+// console.log('Hello',name)
+// _________________________________________________________________________________________
+// ques no 31
+// Add Two Numbers
+// Task:
+// Write a function addNumbers that takes two numbers as parameters, adds 
+// them, and returns the sum.
+// Expected Output:
+// let result = addNumbers(5, 7);  
+// console.log(result); // 12
+// ________________
+// ans 
+// function addNumbers(){let num1 = document.getElementById('it1').value;
+//     let num2 = document.getElementById('it2').value;
+//     let sum = Number(num1) + Number(num2);
+//     document.getElementById('ph').innerHTML = sum;
+// }
+// ____________________________________________________________________________________
+// ques no 32
+// Write a function findMax that takes two numbers and returns the
+//  larger number.
+// Expected Output:
+// console.log(findMax(10, 20)); // 20
+// console.log(findMax(15, 5));  // 15
+// ____________
+// ans 
+function finMax(){}
