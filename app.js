@@ -721,3 +721,45 @@
 // function styling(){let a = document.getElementById('it');
 //      a.className = 'ipt';
 //  }
+// ___________________________________________________________________________________
+// ques no 46 
+// switch case
+// _____________
+// ans 
+// var month = 15; 
+// switch(month){case(1):console.log('jan')
+//     break;
+//     case(2):console.log('feb')
+//     break;
+//     case(3):console.log('mar')
+//     break;
+//     case(4):console.log('april')
+//     break;
+//     case(5):console.log('may')
+//     break;
+//     case(6):console.log('june')
+//     break;
+//     case(7):console.log('july')
+//     break;
+//     case(8):console.log('aug')
+//     break;
+//     case(9):console.log('september')
+//     break;
+//     case(10):console.log('octo')
+//     break;
+//     case(11):console.log('Nov')
+//     break;
+//     case(12):console.log('Dec')
+//     break;
+//     default:console.log('plz enter valid number')
+// }
+// _____________________________________________________________________________________
+// ques no 47
+// switch case using comparison operator
+// _______________
+// ans
+// var age = 78
+// switch(true){case(age>=18 && age <= 40):console.log('eligible')
+//     break;
+//     default:console.log('not eligible')
+// }
