@@ -763,3 +763,149 @@
 //     break;
 //     default:console.log('not eligible')
 // }
+// ____________________________________________________________________________________
+// ques no 48
+// Create a global variable
+// Create a global variable named name and assign it your name as a string.
+// Create a function printName that logs the global variable name.
+// Expected output:
+// Your name here
+// ______________
+// ans 
+// let name = 'Azizullah';
+// function printName(){console.log(name);}
+// printName()
+// ______________________________________________________________________________________
+// ques no 49 
+// Create a function showAge
+// Inside showAge, declare a local variable age with any number.
+// Log the age inside the function.
+// Try to log age outside the function (this should give an error — test it!).
+// Expected output:
+// Age inside function: 25
+// ReferenceError: age is not defined  // when you log it outside the function
+// ________________________
+// ans 
+// function showAge(){let age = 20;
+//     console.log(age);
+//     return age;
+// }
+// let local = showAge();
+// console.log(local)
+// ______________________________________________________________________________________
+// ques no 50 
+// Same variable name (global vs local)
+// Create a global variable city with value "Karachi".
+// Create a function showCity
+// Inside the function, declare a local variable city with value "Lahore".
+// Log the city inside the function.
+// Log the city outside the function too.
+// Expected output:
+// Lahore    // local variable inside function
+// Karachi   // global variable outside function
+// ___________________
+// ans 
+// var city = 'Karachi';
+// function showCity(){var city = 'Lahore';
+//     console.log('local',city);
+//     window.city = 'Mianwali' + ' ' + city;
+// }
+// showCity();
+// console.log('global', city)
+// _________________________________________________________________________________
+// ques no 52
+// Write a function addNumbers that takes two numbers as parameters, 
+// adds them, and returns the result. Call the function with two numbers 
+// and log the result.
+
+// Expected Output Example:
+// Sum is: 15
+// ______________
+// ans 
+// let num1 = 2;
+// let num2 = 5;
+// function addNumbers(num1,num2){let sum = num1 + num2;
+//     console.log(sum)
+// }
+// addNumbers(num1,num2)
+// ____________________________________________________________________________________
+// ques no 53
+// Write a function square that takes a number as input and returns 
+// its square. Call the function with any number and display the 
+// returned value.
+
+// Expected Output Example:
+// Square is: 25
+// _______________
+// ans 
+// function square(){let val = document.getElementById('it').value;
+//                   let result = val * val;
+//                   document.getElementById('ph').innerHTML = result;
+// }
+// ________________________________________________________________________________________
+// ques no 54
+// Get today’s date:
+// Create a program that displays today’s full date in this format:
+// Today is: Monday, June 23, 2025
+// ___________
+// ans 
+// let today = new Date();
+// console.log(today);
+// let full = today.toLocaleDateString();
+// console.log(full)
+// _________________________________________________________________________________
+// ques no 55
+// Current time:
+// Write a script that shows the current time in this format:
+// Current time is: 5:30 PM
+// ___________________
+// ans 
+// let current = new Date();
+// let time = current.toLocaleTimeString();
+// console.log(time);
+// let hour = current.getHours();
+// console.log(hour);
+// let minutes = current.getMinutes();
+// console.log(minutes);
+// let seconds = current.getSeconds();
+// console.log(seconds);
+// if(hour >= 12){console.log(hour + ':'+ minutes + ':' + seconds +' ' + 'PM')}
+// else{console.log(hour + ':'+ minutes + ':'+ 'AM')}
+// ________________________________________________________________________________
+// ques no 55
+// Set a specific date:
+// Create a date object with your birth date. Log it in this format:
+// My birthday is: [Full Date]
+// ___________
+// ans 
+// let current = new Date();
+// let birth = new Date('09 09 1992');
+// console.log(birth);
+// ____________________________________________________________________________________
+// ques no 56
+// calculate age
+// _____________
+// ans 
+// let current = new Date();
+// let currentInMilliSeconds = current.getTime();
+// let birth = new Date('09 09 1992');
+// let birthInMilliSeconds = birth.getTime()
+// let ageInMilliSeconds = currentInMilliSeconds - birthInMilliSeconds;
+// console.log(ageInMilliSeconds);
+// let ageInYears = ageInMilliSeconds/(1000 * 60 *60 *24 *30 * 12);
+// console.log(ageInYears)
+// _________________________________________________________________________________
+// ques no  57
+// Days until New Year:
+// Write a script that shows how many days are left until next January 1st.
+//______________
+// ans 
+// let current = new Date();
+// let required = new Date('01 01 2026');
+// let currentInMilliSeconds = current.getTime();
+// let requiredInMilliSeconds = required.getTime();
+// let result = requiredInMilliSeconds - currentInMilliSeconds;
+// console.log(result);
+// let days = result/(1000 * 60 * 60* 24);
+// days = Math.floor(days)
+// console.log(days);
