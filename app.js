@@ -625,3 +625,68 @@
 //     heading.innerHTML = 'Bulb off';
 //     picture.src = './assets/pic_bulboff.jfif';
 //     button.src = 'Bulb on';}}
+// _______________________________________________________________________________________
+// ques no 38
+// Create a button that, when clicked, replaces the class of
+//  a <div> with a new class that changes its background color to 
+// blue and text color to white.
+
+// Expected behavior:
+// Before click → no styling
+// After click → <div> has blue background & white text.
+// ________________
+// ans 
+// function styling(){let a = document.getElementById('heading');
+//                   a.className = 'headingStyle';
+// }
+// ____________________________________________________________________________________
+// ques no 39
+// Create a <h1> with some text and a button. When the button is clicked:
+// Add a class "highlight" that changes the text color to red.
+// If clicked again, remove the class (use toggle).
+// Expected behavior:
+// Button toggles red color on and off.
+// _________________
+// ans 
+// function styling(){let a = document.getElementById('heading');
+//     a.classList.add('heading-heading');
+// }
+
+// function remove(){document.getElementById('heading').classList.remove('heading-heading')}
+
+// function toggle(){document.getElementById('heading').classList.toggle('heading-heading')}
+// ________________________________________________________________________________________________
+// ques no 40
+// style js by className
+// ______________
+// ans
+// function styling(){document.getElementById('heading').className = 'lovely';}
+// __________________________________________________________________________________________
+// ques no 41 
+// styling by classList 
+// ___________________
+// ans 
+// function add(){let a = document.getElementById('heading');
+//          a.classList.add('superHeading')
+// }
+// function remove(){let a = document.getElementById('heading');
+//          a.classList.remove('superHeading')}
+         
+//          function toggle(){let a = document.getElementById('heading');
+//          a.classList.toggle('superHeading')}
+// _________________________________________________________________________________
+// ques no 42
+// style by js by using for loop
+// __________________
+// ans 
+// function styling(){let get = document.getElementsByClassName('list');
+    
+//     for(let i = 0; i < get.length; i++){
+//         get[i].className = 'listlist';
+//     }
+// }
+// _______________________________________________________________________________________
+// ques no 43 
+// getElementByTagName 
+// _______________
+// ans 
