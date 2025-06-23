@@ -690,3 +690,34 @@
 // getElementByTagName 
 // _______________
 // ans 
+// function add(){let a = document.getElementsByTagName('p');
+//     console.log(a);
+//     for(let i = 0; i < a.length; i++){a[i].classList.add('beautiful');}
+    
+// }
+// function remove(){let a = document.getElementsByTagName('p');
+//     console.log(a);
+//     for(let i = 0; i < a.length; i++){a[i].classList.remove('beautiful');}
+    
+// }
+// function toggle(){let a = document.getElementsByTagName('p');
+//     console.log(a);
+//     for(let i = 0; i < a.length; i++){a[i].classList.toggle('beautiful');}
+    
+
+// __________________________________________________________________________________
+// ques no 44
+// onfocus styling
+// _________
+// ans 
+// function styling(){let a = document.getElementById('it');
+//     a.className = 'ipt';
+// }
+// _______________________________________________________________________________________
+// ques no 45
+// onBlur styling
+// ___________
+// ans 
+// function styling(){let a = document.getElementById('it');
+//      a.className = 'ipt';
+//  }
