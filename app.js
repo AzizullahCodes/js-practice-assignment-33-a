@@ -507,4 +507,121 @@
 // console.log(findMax(15, 5));  // 15
 // ____________
 // ans 
-function finMax(){}
+// function findMax(){let num1 = document.getElementById('it1').value;
+//     let num2 = document.getElementById('it2').value;
+//     let large = Math.max(num1,num2);
+//     document.getElementById('ph').innerHTML = large;
+// }
+// ___________________________________________________________________________________________
+// ques no 33
+// Use an image of a fan (one still image and one with fan blades blurred to look like it’s spinning). Add a button to turn the fan on/off.
+// Expected behavior:
+// Fan Off → Button shows Turn On
+// Fan On → Button shows Turn Off
+// _______________________
+// ans 
+// let heading = document.getElementById('heading');
+// let button = document.getElementById('btn');
+// let fanImg = document.getElementById('fan');
+
+// let isOn = false;
+// function fanOnOff(){if(isOn){isOn = false;
+//     heading.innerHTML = 'fan on'
+//     fanImg.src = './assets/fan-blades-blureed.jpg'
+//     button.innerHTML = 'fan off'
+// }
+// else{isOn = true;
+//     heading.innerHTML = 'fan off';
+//     fanImg.src= './assets/stop fan.jpg'
+//     button.innerHTML = 'fan on';
+// }
+
+// }
+// ________________________________________________________________________________________
+// ques no 34
+// Create a simple page with a background color and text. Add a button to 
+// toggle between light mode and dark mode.
+// Expected behavior:
+// Light Mode → Button shows Dark Mode
+// Dark Mode → Button shows Light Mode
+// _____________
+// ans 
+// let heading = document.getElementById('heading');
+// let themeImg = document.getElementById('picture');
+// let button = document.getElementById('btn');
+// var isApeared = false;
+// function themeChanger(){if(isApeared){
+//     isApeared = false;
+//     heading.innerText = 'Light Theme';
+//     themeImg.src = './assets/lightThreeImg.jfif';
+//     button.innerHTML = 'Dark Theme';
+// }else{isApeared = true;
+//     heading.innerHTML  = 'Dark Themes';
+//     themeImg.src = './assets/themeImgThree.jfif' ;
+//     button.innerHTML = 'Light Themes'
+// }}
+// ___________________________________________________________________________________
+// ques no 35
+//  a cute emoji (😃). Add a button to hide/show it.
+// Expected behavior:
+// Emoji visible → Button says Hide Emoji
+// Emoji hidden → Button says Show Emoji
+// _________________
+// ans 
+// let heading = document.getElementById('heading');
+// let picture = document.getElementById('emoji');
+// let button = document.getElementById('btn');
+// let isApeared = false;
+// function emojiFunction(){if(isApeared){isApeared = false;
+//     heading.innerHTML = 'Show emoji';
+//     button.innerHTML = 'show emoji';
+//     picture.src = '';
+
+// }else{isApeared = true;
+//     heading.innerHTML = 'Hide emoji';
+//     button.innerHTML = 'Hide  emoji';
+//     picture.src = './assets/emoji.jfif';
+
+// }}
+// _____________________________________________________________________________
+// ques no 36
+// When the user moves the mouse over the image, change the image to a 
+// different picture. When the mouse moves out, change it back to the original.
+
+// Expected Output:
+// Hover: Image changes to another image.
+// Mouse out: Image changes back to the first image.
+// ________________
+// ans 
+// let heading = document.getElementById('heading');
+// let pic = document.getElementById('emoji');
+// let button = document.getElementById('btn');
+// let isApeared = true;
+// function hide(){
+//     pic.src = '';
+//     button.innerHTML = 'emoji is hidden'
+// }
+
+// function show(){
+//     pic.src = './assets/emoji.jfif';
+//     button.innerHTML = 'emoji is shown';
+// }
+// __________________________________________________________________________________
+// ques 37 
+// bulb on off function
+// ____________________
+// ans 
+// let heading = document.getElementById('heading');
+// let picture = document.getElementById('bulb');
+// let button = document.getElementById('btn');
+// let isOn = false;
+
+// function bulbOnOff(){if(isOn){isOn = false;
+//     heading.innerHTML = 'Bulb on';
+//     picture.src = './assets/pic_bulbon.jfif';
+//     button.innerHTML = 'Bulb off';
+// }
+// else{ isOn = true;
+//     heading.innerHTML = 'Bulb off';
+//     picture.src = './assets/pic_bulboff.jfif';
+//     button.src = 'Bulb on';}}
