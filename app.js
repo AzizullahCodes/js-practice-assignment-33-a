@@ -990,6 +990,67 @@
 // ________________
 // ans 
 
-function round(){let a = document.getElementById('it').value;
-let result = Math.floor(a);
-document.getElementById('ph').innerHTML = result;}
+// function round(){let a = document.getElementById('it').value;
+// let result = Math.floor(a);
+// document.getElementById('ph').innerHTML = result;}
+// _____________________________________________________________________________________
+// ques no 65
+// Replace multiple characters using replaceAll or regex:
+// Create a string: "hello world, hello universe"
+// Replace "hello" with "hi" everywhere in the string.
+// _________________
+// ans 
+ let string = 'hello world, hello universe, hello media';
+ let result = string.replaceAll('hello','welcome')
+ console.log(result)
+// ________________________________________________________________________________
+// ques no 66
+// Create a string variable: var myWord = "Hello";
+// 2️⃣ Find the first character of myWord.
+// 3️⃣ Show it using console.log() and alert().
+// 🔑 Example
+// String: Hello
+// Expected output: H (because it’s the first character, index 0)
+// ______________
+// ans 
+// var myWord = 'hello';
+// var firstChar = myWord.charAt(myWord.length-1);
+// console.log(firstChar)
+// __________________________________________________________________________________
+// ques no 67
+// Write a JavaScript program that does the following:
+// 1️⃣ Ask the user to enter any sentence using prompt().
+// 2️⃣ Show the original sentence using console.log() and alert().
+// 3️⃣ Convert the sentence to uppercase and show it using console.log() 
+// and alert().
+// 4️⃣ Convert the sentence to lowercase and show it using console.log() 
+//  alert().
+// 5️⃣ BONUS: Show only the first letter in uppercase and the rest in 
+// lowercase (like a capitalized word).
+// ___________________
+// ans 
+// let sentence = prompt('enter sentence');
+// console.log(sentence);
+//           sentence = sentence.toUpperCase();
+//           console.log(sentence);
+//           sentence = sentence.toLowerCase();
+//           console.log(sentence);
+
+// _______________________________________________________________________________
+// ques no 68
+// Ask the user to enter a sentence using prompt().
+// 2️⃣ Extract and show:
+// The first 5 characters
+// The last 5 characters
+// A middle part (e.g., characters from position 3 to 8)
+// 3️⃣ Display each extracted part using console.log() and alert().
+// ___________
+// ans 
+// let sentence = prompt('enter a sentence');
+// let firstFiveCharacter = sentence.slice(0,5);
+// console.log(firstFiveCharacter);
+// let last = sentence.slice(-5);
+// console.log(last)
+
+
+
