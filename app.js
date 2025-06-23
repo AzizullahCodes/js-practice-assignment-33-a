@@ -909,3 +909,87 @@
 // let days = result/(1000 * 60 * 60* 24);
 // days = Math.floor(days)
 // console.log(days);
+// ________________________________________________________________________________
+// ques no 58
+// Check AM or PM:
+// Write a program that checks the current hour and prints:
+// It's AM or It's PM
+// ________________
+// ans 
+// let current = new Date();
+// let hour = current.getHours();
+// if(hour >=12){console.log('PM')}
+// else{console.log('AM')}
+// ________________________________________________________________________________
+// ques no 59
+// Change date parts:
+// Create a date object for today.
+
+// Change the month to December.
+
+// Change the date to the 25th.
+// Log the new date.
+// __________________
+// ans 
+// let Current = new Date();
+// //  Current.setMonth(11);
+// // console.log(Current);
+// // Current.setDate(25);
+// // console.log(Current)
+// console.log(Current);
+// // Current.setFullYear(2027);
+// // console.log(Current)
+// Current.setHours(8);
+// console.log(Current)
+// ____________________________________________________________________________
+// ques no 60
+// Create a variable num1 with the value 3.1415926535.
+// Use .toFixed() to round it to 2 decimal places and log the result.
+// Expected output:
+// 3.14
+// _________________
+// ans 
+// let num1 = 3.1484509;
+// let result = num1.toFixed(2);
+// console.log(result);
+// ____________________________________________________________________________________
+// ques no 61
+// convert string to numbers
+// ________________
+// ans 
+// let num1 = '67.7865';
+// console.log(typeof num1);
+// let result = parseInt(num1);
+// console.log(result);
+// console.log(typeof result)
+// _________________________________________________________________________________
+// ques no 62
+// convert number to string 
+// _________________
+// ans 
+// let num1 = 78698;
+// console.log(typeof num1);
+// let result = num1 + '';
+// console.log(result);
+// console.log(typeof result);
+// _________________________________________________________________________________________
+// ques no 63
+// Guess the Number Game
+// Task: Generate a number from 1 to 5. Ask the user to guess it using prompt().
+//  Show a message if the 
+// guess is correct or not.
+// let value = Number(prompt('enter guess number'));
+// let random = Math.floor(Math.random()*4)+1;
+// if(random === 1){console.log('you won toss')}
+// else{console.log('you lose toss')}
+// ____________________________________________________________________________
+// ques no 64
+// Ask the user to enter any decimal number using prompt().
+// Use Math.round(), Math.floor(), and Math.ceil() on this input.
+// Log all three results in a clear format.
+// ________________
+// ans 
+
+function round(){let a = document.getElementById('it').value;
+let result = Math.floor(a);
+document.getElementById('ph').innerHTML = result;}
